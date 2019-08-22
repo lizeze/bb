@@ -1,0 +1,531 @@
+/* 页眉 */
+.header {
+    background-image: url(../img/33.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -80px;
+
+    height: 540px;
+    position: relative;
+    /* margin-bottom: 20px */
+}
+
+/* 模块1-关于我 */
+/* .aboutMe {
+    background-color: #f0f2ff;
+    padding: 100px 0;
+} */
+
+.aboutMe .aboutMeBg {
+    background-color: #f0f2ff;
+}
+
+.aboutMeInner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.aboutMe .box {
+    float: left;
+    border: 4px solid #c4d0ff;
+    width: 300px;
+    height: 320px;
+    box-sizing: border-box;
+
+}
+
+.aboutMeInner img {
+    float: left;
+    padding: 4px;
+    margin-left: -320px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 280px;
+    height: 280px;
+
+}
+
+.aboutMe .title {
+    color: #1a1a1a;
+    margin-left: 400px;
+    width: 620px;
+    padding: 20px 0;
+}
+
+.aboutMe .title h1 {
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.aboutMe .title h3 {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutMe .title p {
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+/* 作品 */
+.works {
+    display: none;
+}
+
+.works .worksInner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.works .worksInner .title {
+    background-color: #7469d8;
+    height: 2px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    color: #7469d8;
+}
+
+.works .worksInner .title .text {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    position: absolute;
+    left: calc((100% - 138px) / 2);
+    top: -20px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.works .worksInner .worksList li {
+    float: left;
+    width: 20%;
+    padding-top: 100px;
+    text-align: center;
+    color: #7469d8;
+    font-size: 14px;
+    background: url(../img/icon.png) no-repeat center
+}
+
+
+/* 网页设计 */
+.web {
+    background-color: #f0f2ff;
+}
+
+.web .webInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 20px;
+}
+
+.web .webInner .disign {
+    position: relative;
+    height: 440px;
+    margin-bottom: 40px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4f5782+0,7773a4+27,3d4b65+66,3d4b65+66,3e4968+100 */
+    background: #4f5782;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #4f5782 0%, #7773a4 27%, #3d4b65 66%, #3d4b65 66%, #3e4968 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #4f5782 0%, #7773a4 27%, #3d4b65 66%, #3d4b65 66%, #3e4968 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #4f5782 0%, #7773a4 27%, #3d4b65 66%, #3d4b65 66%, #3e4968 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f5782', endColorstr='#3e4968', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web .webInner .disign img {
+    width: 66%;
+    display: block;
+    margin-top: 150px;
+
+}
+
+.web .webInner .disign h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: calc((100% - 96px) / 2);
+    top: 30px
+}
+
+.web .webInner .disign h2 {
+    font-size: 14px;
+    color: #d3d3d3;
+    position: absolute;
+    left: calc((100% - 82px) / 2);
+    top: 64px;
+}
+
+.web .webInner .btn {
+    width: 140px;
+    height: 30px;
+    margin: 60px auto 0;
+    border: 2px #7469d8 solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 26px;
+}
+
+/* UI设计 */
+.UI {
+    background-color: transparent;
+}
+
+.UI .UIInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0 20px;
+}
+
+.UI .UIInner .title {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.UI .UIInner .title h1 {
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.UI .UIInner .title h2 {
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.UI .UIInner .UIList li {
+    float: left;
+    width: calc((100% - 280px)/ 3);
+    height: 300px;
+    background-color: #dce1f5;
+    border-radius: 30px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.UI .UIInner .UIList li:nth-child(2) {
+    margin: 0 140px
+}
+
+.UI .UIInner .UIList img {
+    width: 255px;
+    height: 340px;
+    position: absolute;
+    bottom: 0;
+    left: calc((((1200px - 280px)/ 3) - 255px) / 2);
+    border-radius: 10px;
+    box-shadow: rgb(85, 85, 85, 0.2) 0 1px 4px;
+    transition: 0.3s;
+}
+
+.UI .UIInner .UIList img:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0 4px 6px;
+    transform: scale(1.02);
+}
+
+
+.UI .UIInner .UIList h2 {
+    line-height: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    left: calc((((1200px - 280px)/ 3) - 32px) / 2);
+}
+
+.UI .UIInner .btn {
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    border: 2px #7469d8 solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 26px;
+}
+
+/* banner */
+.banner {
+    background-color: #f0f2ff;
+}
+
+.banner .bannerInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0 20px;
+}
+
+.banner .bannerInner .title {
+    margin-bottom: 40px
+}
+
+.banner .bannerInner .title h1 {
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: bold;
+    display: flex;
+    justify-content: center
+}
+
+.banner .bannerInner .title h2 {
+    font-size: 14px;
+    color: #9a9a9a;
+    display: flex;
+    justify-content: center
+}
+
+
+.banner .bannerInner .bannerList {
+    margin-bottom: 40px;
+}
+
+.banner .bannerInner .bannerList li {
+    float: left;
+    /* width: calc((100% - 40px) / 3);  */
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgb(85, 85, 85, 0.2) 0 1px 4px;
+    transition: 0.3s;
+}
+
+.banner .bannerInner .bannerList li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.banner .bannerInner .bannerList li:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0 4px 6px;
+    transform: scale(1.02)
+}
+
+.banner .bannerInner .bannerList img {
+    height: inherit;
+}
+
+.banner .bannerInner .btn {
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    border: 2px #7469d8 solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 26px;
+}
+
+/* 平面 */
+.plane {
+    background-color: transparent;
+}
+
+.plane .planeInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0 20px;
+}
+
+.plane .planeInner .title {
+    margin-bottom: 40px
+}
+
+.plane .planeInner .title h1 {
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: bold;
+    display: flex;
+    justify-content: center
+}
+
+.plane .planeInner .title h2 {
+    font-size: 14px;
+    color: #9a9a9a;
+    display: flex;
+    justify-content: center
+}
+
+
+.plane .planeInner .planeList {
+    margin-bottom: 40px;
+}
+
+.plane .planeInner .planeList li {
+
+    float: left;
+    width: calc((100% - 120px) / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 40px;
+    box-shadow: rgb(85, 85, 85, 0.2) 0 1px 4px;
+    transition: 0.3s;
+}
+
+.plane .planeInner .planeList li:nth-child(4) {
+    margin-right: 0;
+}
+
+.plane .planeInner .planeList img {
+    height: inherit;
+    width: 100%;
+}
+
+.plane .planeInner .planeList li:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0 4px 6px;
+    transform: scale(1.02)
+}
+
+
+.plane .planeInner .btn {
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    border: 2px #7469d8 solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 26px;
+}
+
+/* 联系我 */
+.contactMe {
+    background-color: #000000
+}
+
+.contactMeInner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.contactMe .contactMeInner .contactMeList li {
+    color: white;
+    float: left;
+    width: 25%;
+    background-color: transparent;
+    text-align: center;
+}
+
+.contactMe .contactMeInner .contactMeList li :hover {
+    transform: scale(1.2)
+}
+
+
+.contactMe .contactMeInner .contactMeList li span {
+    font-size: 12px;
+}
+
+.contactMe .contactMeInner .contactMeList li:nth-child(2) span {
+    font-size: 60%;
+}
+
+.contactMe .contactMeInner .contactMeList img {
+    width: 24%;
+    margin-bottom: 10px;
+}
+
+/* 响应 */
+
+@media(max-width:580px) {
+    .header {
+        width: auto;
+        height: 280px;
+        background-position: center 30px;
+    }
+
+    .aboutMe .title {
+        clear: both;
+        margin-left: 50px;
+        width: 330px;
+    }
+
+    .aboutMe .box {
+        margin-left: 60px;
+    }
+
+    .web .webInner .disign {
+        height: 260px;
+    }
+
+    .web .webInner .disign img {
+        width: 90%;
+        margin-top: 140px;
+
+    }
+
+    .UI .UIInner .UIList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .UI .UIInner .UIList li:nth-child(1n) {
+        float: none;
+        width: 320px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .UI .UIInner .H5List li:nth-child(3) {
+        margin: 0;
+        margin-bottom: 60px;
+    }
+
+    .UI .UIInner .UIList li img {
+        position: static;
+        margin-top: -40px;
+    }
+
+    .UI .UIInner .btn {
+        margin-top: -26px;
+    }
+
+    .banner .bannerInner .bannerList li {
+        float: none;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 15px;
+        margin-right: 0;
+        box-shadow: rgb(85, 85, 85, 0.2) 2px 4px 8px 2px
+    }
+    .plane .planeInner .planeList{
+        margin-bottom:6px;
+    }
+    .plane .planeInner .planeList {
+        padding: 20px;
+    }
+
+    .plane .planeInner .planeList li {
+
+        width: calc((100% - 20px) / 2);
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .plane .planeInner .planeList li:nth-child(2n) {
+        margin-right: 0;
+    }
+}

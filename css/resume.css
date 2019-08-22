@@ -1,0 +1,17 @@
+.header {
+    background: none;
+}
+
+.png {
+    display: none;
+}
+
+@media(max-width:580px) {
+    .pdf{display:none;}
+    .png{display:block}
+}
+
+@media(min-width:580px) {
+    .pdf{display:block;}
+    .png{display:none}
+}
