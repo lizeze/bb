@@ -39,10 +39,10 @@ p {
     z-index: 100;
 }
 
-.header .nav .navInner {
+/* .header .nav .navInner {
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 .header .nav .navInner .menu {
     float: right;
