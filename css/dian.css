@@ -2,10 +2,6 @@
     background: none;
 }
 
-/* .webList div{display:flex;flex-direction: column;flex-wrap: wrap;height:100vh;font-size:0;} */
-/* .webList div{padding:0 5px;}
-.webList div img{width:calc((100% - 10px) / 2);margin-right:10px;float:left;}
-.webList div img:nth-child(2n+1){margin-right:0;clear:left;} */
 html,
 body {
     position: relative;
