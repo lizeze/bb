@@ -26,13 +26,13 @@ body {
     margin: 0 auto;
 
     width: 1200px;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
 .itemContainer {
 
-    margin-right: 10px;
+    margin-right: 15px;
 
     flex-direction: column;
 
@@ -42,7 +42,7 @@ body {
 
 .item {
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     background: #fff;
 
@@ -83,8 +83,12 @@ body {
 @media(max-width:580px) {
     #root {
         width: 360px;
-        margin-top: 50px;
+        margin-top: 30px;
+
     }
+    span{
+    font-size:8px;
+   }
 
     .itemContainer {
         width: 25%;
