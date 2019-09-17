@@ -54,6 +54,7 @@ html, body {
     margin: 0 auto;
 
     width: 1200px;
+    
     margin-top: 15px;
 
 }
@@ -111,7 +112,7 @@ html, body {
 @media(max-width:580px) {
     #root {
         width: 360px;
-        margin-top: 50px;
+        margin-top: 15px;
     }
 
     .itemContainer {
