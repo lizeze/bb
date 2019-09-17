@@ -31,7 +31,7 @@
                     <li><a href="index.html">首页</a></li>
                     <li><a href="web.html">WEB</a></li>
                     <li class="current"><a href="banner.html">电商</a></li>
-                    <li><a href="banner.html">banner</a></li>
+                   
                     <li><a href="plane.html">平面</a></li>
                     <li><a href="APP.html">APP</a></li>
                     <li><a href="resume.html">简历</a></li>
@@ -45,7 +45,7 @@
                     <li><a href="index.html">首页</a></li>
                     <li><a href="web.html">WEB</a></li>
                     <li class="current"><a href="banner.html">电商</a></li>
-                    <li><a href="banner.html">banner</a></li>
+                   
                     <li><a href="plane.html">平面</a></li>
                     <li><a href="APP.html">APP</a></li>
                     <li><a href="resume.html">简历</a></li>
@@ -55,6 +55,64 @@
             </div>
         </div>
     </div>
+
+
+ <!-- Swiper -->
+ <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/banner02.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner01.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner05.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner04.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner03.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner06.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner07.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner08.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner09.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner10.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner11.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner12.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner13.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner14.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner15.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner16.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner17.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner18.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner19.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/banner20.jpg" alt=""></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
 
     <!-- 专题页 -->
     <div id="root">
