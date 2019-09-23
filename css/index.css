@@ -1,9 +1,9 @@
 /* 页眉 */
 .header {
-    background-image: url(../img/110.jpg);
+    background-image: url(../img/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center -120px;
+    background-position: center;
 
     height: 540px;
     position: relative;
