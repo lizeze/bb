@@ -2,16 +2,16 @@
     background: none;
 }
 
-.png {
+.b {
     display: none;
 }
 
 @media(max-width:580px) {
-    .pdf{display:none;}
-    .png{display:block}
+    .a{display:none;}
+    .b{display:block}
 }
 
 @media(min-width:580px) {
-    .pdf{display:block;}
-    .png{display:none}
-}
+    .a{display:block;}
+    .b{display:none}
+} 
