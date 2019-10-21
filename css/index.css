@@ -412,13 +412,13 @@
 /* 联系我 */
 
 .contactMe {
-    background-color: #000000
+    background-color: #263072
 }
 
 .contactMeInner {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 30px 0 40px;
 }
 
 .contactMe .contactMeInner .contactMeList li {
