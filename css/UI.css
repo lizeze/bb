@@ -49,4 +49,7 @@
     .itemContainer {
         width: 25%;
     }
+    .item {
+        margin-bottom: 15px;
+    }
 }
