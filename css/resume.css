@@ -7,11 +7,19 @@
 }
 
 @media(max-width:580px) {
-    .a{display:none;}
-    .b{display:block}
+    .a {
+        display: none;
+    }
+    .b {
+        display: block
+    }
 }
 
 @media(min-width:580px) {
-    .a{display:block;}
-    .b{display:none}
-} 
+    .a {
+        display: block;
+    }
+    .b {
+        display: none
+    }
+}
