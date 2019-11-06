@@ -112,7 +112,7 @@ p {
     .header {
         width: auto;
     }
-    .menu {
+    .header .nav .navInner .menu {
         display: none;
     }
     .mobileBtn {
